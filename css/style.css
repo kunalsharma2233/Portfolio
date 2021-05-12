@@ -266,7 +266,7 @@ justify-content: center;
     #resume{
         justify-content: center;
         align-items: center;
-        display: flex;
+        /* display: flex; */
     }
 }
 
