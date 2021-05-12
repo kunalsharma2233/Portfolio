@@ -267,7 +267,10 @@ justify-content: center;
         justify-content: center;
         align-items: center;
         /* display: flex; */
-    }
+        padding: 30px;
+        max-width: 90%;
+        max-height: 90%;
+        }
 }
 
 @media only screen and (max-width:767px){
