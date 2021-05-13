@@ -10,6 +10,8 @@ img{
     /* margin-left: 184px; */
 }
 
+
+
 hr{
     color: #000000;
 }
@@ -43,15 +45,20 @@ hr{
     margin-bottom: 21px;
     border-radius: 35px;
     float: left;
+    padding-left: 4px;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px black;
 }
 #bar .icon-bar{
-    /* color: white; */
+    color: white;
     background-color:white;
 }
 
 #mydiv ul li a{
     color: white;
     transition: 00.7s all;
+    padding-left: 36px;
+    padding-top: 33px;
     /* display: inline-block; */
 }
 
@@ -128,7 +135,9 @@ hr{
     padding-bottom: 10px;
     border-radius: 15px;
     box-shadow: 2px 10px 25px pink;
-    position: relative; 
+    position: relative;
+    background-color: #7d156d;
+    color: whitesmoke;
 }
 
 #resume #col img{
@@ -147,8 +156,8 @@ hr{
 
 }
 /* College overlay */
-#col .overlay{
-    padding: 2px;
+/* #col .overlay{
+    padding-left: 56px;
     position:absolute;
 	height:300px;
 	width:300px;
@@ -157,17 +166,24 @@ hr{
 	top: 25px;
     left: 45px;
 	transition:0.5s ease; 
-    color: white;  
+    color: white;
+    text-align: center;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #col:hover .overlay{
     padding-left: 20px;
     height: 300px;
     width: 300px;
 	opacity:1.0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* School overlay */
-#school .overlay{
+/* #school .overlay{
     padding: 2px;
     position:absolute;
 	height:300px;
@@ -187,12 +203,42 @@ hr{
     height: 300px;
     width: 300px;
 	opacity:1.0;
+} */ 
+
+#grad{
+    background-color: #ff8474;
+    border-left: 10px solid grey;
 }
+
+#grad:hover{
+    border-left: 50px solid grey;
+    color: white;
+}
+
+#hsc{
+    background-color: #ff8474;
+    border-left: 10px solid grey;
+}
+
+#hsc:hover{
+    border-left: 50px solid grey;
+    color: white;
+}
+
+#ssc{
+    background-color: #ff8474;
+    border-left: 10px solid grey;
+}
+#ssc:hover{
+    border-left: 50px solid grey;
+    color: white;
+}
+
 /* Social-icons */
 #social-icons{
-    float: left;
+    /* float: left; */
     /* font-size: 5px; */
-    padding-top: 18px;
+    /* padding-top: px; */
     font-size: 30px;
     /* float: right; */
     /* padding-left:480px; */
@@ -203,7 +249,7 @@ hr{
     font-size: 100px;
     border-radius: 25px;  
     box-shadow: 2px 10px 25px pink; 
-    background-color: #ff8474;
+    background-color: #f0ca6d;
     /* padding: 10px; */
     /* margin: 1px; */
     margin-bottom: 8px;
@@ -329,4 +375,11 @@ justify-content: center;
     background-color: aqua;
     margin-bottom: 8px;
 
+}
+
+/* Buttons */
+#objective{
+    color: #fff;
+    background-color: transparent !important;
+    border-color: white !important;
 }
