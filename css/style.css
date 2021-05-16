@@ -383,3 +383,20 @@ justify-content: center;
     background-color: transparent !important;
     border-color: white !important;
 }
+
+#skills a{
+    margin-bottom: 10px;
+    color:white;
+    background-color: grey !important;
+    border-color: white !important;
+}
+
+
+hr{
+
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin:100px auto;
+}
+
